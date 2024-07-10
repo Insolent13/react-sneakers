@@ -46,7 +46,7 @@ const arr = [
   },
   {
     title: 'Мужские Кроссовки Nike Blazer Mid Suede',
-    price: 8499,
+    price: 13999,
     imageUrl: '/img/sneakers/10.jpg',
   },
 ];

@@ -49,6 +49,16 @@ const arr = [
     price: 8499,
     imageUrl: '/img/sneakers/10.jpg',
   },
+  {
+    title: 'Кроссовки Puma X Aka Boku Future Rider',
+    price: 8999,
+    imageUrl: '/img/sneakers/11.jpg',
+  },
+  {
+    title: 'Кроссовки Puma X Aka Boku Future Rider',
+    price: 8999,
+    imageUrl: '/img/sneakers/12.jpg',
+  },
 ];
 
 

@@ -41,13 +41,8 @@ const arr = [
   },
   {
     title: 'Мужские Кроссовки Nike Lebron XVIII Low',
-    price: 13999,
+    price: 16499,
     imageUrl: '/img/sneakers/9.jpg',
-  },
-  {
-    title: 'Мужские Кроссовки Nike Blazer Mid Suede',
-    price: 8499,
-    imageUrl: '/img/sneakers/10.jpg',
   },
 ];
 
