@@ -3,7 +3,7 @@ function Drawer(props) {
       <div className="overlay">
         <div className="drawer">
           <h2 className="d-flex justify-between mb-30">
-            Корзина <img onClick={props.onClose} className="cu-p" src="/img/btn-remove.svg" alt="Close" />
+            Корзина <img onClick={onClose}className="cu-p" src="/img/btn-remove.svg" alt="Close" />
           </h2>
   
           <div className="items">

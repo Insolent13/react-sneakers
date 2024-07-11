@@ -21,7 +21,7 @@ function Card(props) {
             <span>Цена:</span>
             <b>{props.price} руб.</b>
           </div>
-          <img className={styles.plus} onClick={onClickPlus} src={isAdded ? '/img/btn-checked.svg' : '/img/btn-plus.svg'} alt="Plus" />
+          <img className={styles.plus} onClick={props.onPlus} src="/img/btn-plus.svg" alt="Plus" />
         </div>
       </div>
     );

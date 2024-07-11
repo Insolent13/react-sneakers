@@ -9,7 +9,7 @@ function Header(props) {
           </div>
         </div>
         <ul className="d-flex">
-          <li onClick={props.onClickCart} className="mr-30 cu-p">
+          <li on className="mr-30 cu-p">
             <img width={18} height={18} src="/img/cart.svg" />
             <span>1205 руб.</span>
           </li>
