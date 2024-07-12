@@ -11,7 +11,7 @@ function App() {
   const [cartOpened, setCartOpened] = React.useState(false);
 
   React.useEffect(() => {
-    fetch('https://66903f84c0a7969efd9b8db7.mockapi.io/items')
+    fetch('https://https://66903f84c0a7969efd9b8db7.mockapi.io/items')
       .then((res) => {
         return res.json();
       })

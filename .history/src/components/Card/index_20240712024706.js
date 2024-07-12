@@ -20,7 +20,7 @@ function Card({ title, imageUrl, price, onFavorite, onPlus }) {
         <div className="d-flex justify-between align-center">
           <div className="d-flex flex-column">
             <span>Цена:</span>
-            <b>{price} руб.</b>
+            <b>{props.price} руб.</b>
           </div>
           <img className={styles.plus} onClick={onClickPlus} src={isAdded ? '/img/btn-checked.svg' : '/img/btn-plus.svg'} alt="Plus" />
         </div>

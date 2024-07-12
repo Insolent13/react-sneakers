@@ -20,7 +20,7 @@ function Drawer({ onClose, items = [] }) {
               <img className="removeBtn" src="/img/btn-remove.svg" alt="Remove" />
             </div>
             ))}
-          </div>
+        </div>
   
           <div className="cartTotalBlock">
             <ul>

@@ -11,7 +11,7 @@ function App() {
   const [cartOpened, setCartOpened] = React.useState(false);
 
   React.useEffect(() => {
-    fetch('https://66903f84c0a7969efd9b8db7.mockapi.io/items')
+    fetch('https://https://66903f84c0a7969efd9b8db7.mockapi.io/items')
       .then((res) => {
         return res.json();
       })
@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div className="wrapper clear">
-      {cartOpened && <Drawer items={cartItems} onClose={() => setCartOpened(false)} />}
+      {cartOpened && <Drawer onClose={() => setCartOpened(false)} />}
       <Header onClickCart={() => setCartOpened(true)}></Header>
       <div className="content p-40">
         <div className="d-flex align-center justify-between mb-40">
@@ -38,13 +38,12 @@ function App() {
         </div>
 
         <div className="d-flex flex-wrap">
-          {items.map((item) => (
+          {items.map((obj) => (
             <Card
-              title={item.title}
-              price={item.price}
-              imageUrl={item.imageUrl}
-              onFavorite={() => console.log('Добавили в закладки')}
-              onPlus={(obj) => onAddToCart(obj)}
+              title={obj.title}
+              price={obj.price}
+              imageUrl={obj.imageUrl}
+              onClick={() => console.log(obj)}
             />
           ))}
         </div>

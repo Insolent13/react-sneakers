@@ -18,8 +18,10 @@ function Drawer({ onClose, items = [] }) {
                 <b>{obj.price} руб.</b>
               </div>
               <img className="removeBtn" src="/img/btn-remove.svg" alt="Remove" />
+              
+              </div>
+              <img className="removeBtn" src="/img/btn-remove.svg" alt="Remove" />
             </div>
-            ))}
           </div>
   
           <div className="cartTotalBlock">
