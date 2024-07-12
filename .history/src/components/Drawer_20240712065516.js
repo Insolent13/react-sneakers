@@ -56,9 +56,6 @@ function Drawer({ onClose, onRemove, items = [] }) {
             </button>
           </div>
         )}
-        </div>
-    </div>
-  );
-}
+        
   
   export default Drawer;
